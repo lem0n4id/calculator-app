@@ -4,8 +4,10 @@ import { Button } from "./components/ui/button"
 function App() {
 
   return (
-    <div className=''>
-      <Calculator />
+    <div className='h-screen flex items-center'>
+
+        <Calculator />
+      
       {/* <Button className="bg-red-600">1</Button> */}
     </div>
   )
